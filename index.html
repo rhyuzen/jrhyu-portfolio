@@ -1,0 +1,865 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>John Rhey T. Ugates | Cybersecurity Portfolio</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;500;600;700&family=DM+Sans:ital,wght@0,300;0,400;0,500;0,600;1,400&display=swap" rel="stylesheet"/>
+<link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+
+<!-- NAV -->
+<nav id="mainNav">
+  <div class="nav-logo">rhyuzen<span class="accent">@</span>sec<span class="dim">:~$</span></div>
+  <ul class="nav-links">
+    <li><a href="#home">Home</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="#experience">Experience</a></li>
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#certifications">Certifications</a></li>
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#engagements">Engagements</a></li>
+    <li><a href="#writeups">Writeups</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+  <button class="hamburger" id="hamburger" aria-label="Menu">
+    <span></span><span></span><span></span>
+  </button>
+</nav>
+
+<!-- MOBILE MENU -->
+<div class="mobile-menu" id="mobileMenu">
+  <ul>
+    <li><a href="#home" class="nav-item">Home</a></li>
+    <li><a href="#about" class="nav-item">About</a></li>
+    <li><a href="#experience" class="nav-item">Experience</a></li>
+    <li><a href="#skills" class="nav-item">Skills</a></li>
+    <li><a href="#certifications" class="nav-item">Certifications</a></li>
+    <li><a href="#projects" class="nav-item">Projects</a></li>
+    <li><a href="#engagements" class="nav-item">Engagements</a></li>
+    <li><a href="#writeups" class="nav-item">Writeups</a></li>
+    <li><a href="#contact" class="nav-item">Contact</a></li>
+  </ul>
+</div>
+
+<!-- HERO -->
+<section id="home">
+  <div class="hero-bg-grid"></div>
+  <canvas id="hero-canvas"></canvas>
+  <div class="hero-orb hero-orb-1"></div>
+  <div class="hero-orb hero-orb-2"></div>
+  <div class="container">
+    <div class="hero-inner reveal">
+
+      <div class="hero-image-wrap">
+        <div class="hero-cyber-visual">
+          <div class="cyber-grid-art">
+            <div class="cyber-ring cyber-ring-1"></div>
+            <div class="cyber-ring cyber-ring-2"></div>
+            <div class="cyber-ring cyber-ring-3"></div>
+            <div class="cyber-shield">
+              <svg viewBox="0 0 80 90" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M40 4L8 18v24c0 20 13.6 38.7 32 44 18.4-5.3 32-24 32-44V18L40 4z" stroke="rgba(0,255,120,0.7)" stroke-width="1.5" fill="rgba(0,255,120,0.05)"/>
+                <path d="M40 16L16 27v17c0 14 9.6 27.3 24 31 14.4-3.7 24-17 24-31V27L40 16z" stroke="rgba(0,255,120,0.35)" stroke-width="1" fill="none"/>
+                <path d="M28 44l8 8 16-16" stroke="rgba(0,255,120,0.9)" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </div>
+            <div class="cyber-dots">
+              <span></span><span></span><span></span>
+              <span></span><span></span><span></span>
+              <span></span><span></span><span></span>
+            </div>
+            <div class="cyber-scan-line"></div>
+          </div>
+          <div class="cyber-terminal-snippet">
+            <span class="ct-prompt">$</span> nmap -sV target<br/>
+            <span class="ct-ok">PORT&nbsp;&nbsp; STATE SERVICE</span><br/>
+            <span class="ct-dim">443/tcp open&nbsp; https</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-content">
+        <div class="hero-badge">Open to Opportunities</div>
+        <h1 class="hero-name">John Rhey <span class="accent">Ugates</span></h1>
+        <div class="hero-role">
+          <span class="hero-role-label">Aspiring </span>
+          <span id="typed-role"></span><span class="cursor-blink"></span>
+        </div>
+        <p class="hero-tagline">
+          Cybersecurity practitioner focused on SOC operations, penetration testing, 
+          and DevSecOps—bridging defensive and offensive security.
+        </p>
+        <div class="hero-ctas">
+          <a href="#certifications" class="btn btn-primary">View Certificates</a>
+          <a href="#experience" class="btn btn-outline">Experience</a>
+          <a href="#contact" class="btn btn-ghost">Let's Connect</a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about">
+  <div class="container">
+    <div class="section-header reveal">
+      <div class="section-label">Profile</div>
+      <h2 class="section-title">About Me</h2>
+      <div class="section-line"></div>
+    </div>
+    <div class="about-grid">
+      <div class="about-text reveal">
+        <p class="about-lead">
+          BS Electronics Engineer (TUP Manila) turned cybersecurity practitioner — with hands-on experience in <strong>SOC operations, penetration testing, vulnerability management, and DevSecOps</strong> from internships at SGV & Co. and self-directed lab work.
+        </p>
+        <p>
+          I operate with an <strong>adversarial mindset</strong>: I break things intentionally in the lab so I can defend them in production. Currently aiming for senior-level SOC and pentesting roles.
+        </p>
+        <div class="focus-areas">
+          <span class="focus-tag">● SOC Operations</span>
+          <span class="focus-tag">● Penetration Testing</span>
+          <span class="focus-tag">● Threat Hunting</span>
+          <span class="focus-tag">● SIEM Analysis</span>
+          <span class="focus-tag">● DevSecOps</span>
+          <span class="focus-tag">● Vulnerability Assessment</span>
+          <span class="focus-tag">● API Security</span>
+          <span class="focus-tag">● Cloud Security</span>
+        </div>
+      </div>
+      <div class="about-stats reveal">
+        <div class="stat-card">
+          <div class="stat-num">2+</div>
+          <div class="stat-label">Internship Roles</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-num">13+</div>
+          <div class="stat-label">Certifications</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-num">5+</div>
+          <div class="stat-label">Security Domains</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-num">15+</div>
+          <div class="stat-label">CTF / Lab Completions</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- EXPERIENCE -->
+<section id="experience">
+  <div class="container">
+    <div class="section-header reveal">
+      <div class="section-label">Career</div>
+      <h2 class="section-title">Experience</h2>
+      <div class="section-line"></div>
+    </div>
+
+    <div class="tl-outer">
+
+      <!-- Arrow tip -->
+      <div class="tl-top-arrow">
+        <div class="tl-arrow-icon">▲</div>
+      </div>
+
+      <!-- SGV -->
+      <div class="tl-item reveal">
+        <div class="tl-spine">
+          <div class="tl-logo-wrap">
+            <img src="img/logo/SGV.jpg" alt="SGV & Co."/>
+          </div>
+          <div class="tl-connector"></div>
+        </div>
+        <div class="tl-card">
+          <div class="tl-card-meta">
+            <div class="tl-period">May 2025 – Feb 2026</div>
+            <div class="tl-company">SyCip Gorres Velayo & Co.</div>
+            <div class="tl-location">Makati City, Metro Manila</div>
+          </div>
+          <div class="tl-role">Cybersecurity Consultant Intern</div>
+          <ul class="tl-highlights">
+            <li>Led an EY-aligned Cyber Posture Assessment across 25 domains — conducted stakeholder interviews and delivered a prioritized current-state remediation report.</li>
+            <li>Implemented SAST (Bandit, SonarQube) and DAST (OWASP ZAP) scanning within GitLab CI/CD pipelines for a live DevSecOps deployment; presented results to clients and management.</li>
+            <li>Delivered cross-domain exposure across SOC, IAM/SAP, VDR, and SRC — specializing in Vulnerability Detection & Response and Security Risk & Compliance.</li>
+            <li>Developed client-specific BCP and BIA templates, conducted a full BIA simulation, and presented RTO/RPO/MTD proposals.</li>
+          </ul>
+          <div class="tl-tags">
+            <span class="tl-tag">DevSecOps</span>
+            <span class="tl-tag">SAST / DAST</span>
+            <span class="tl-tag">Risk & Compliance</span>
+            <span class="tl-tag">BCP / BIA</span>
+            <span class="tl-tag">Vulnerability Management</span>
+            <span class="tl-tag">GitLab CI/CD</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- GDG -->
+      <div class="tl-item reveal">
+        <div class="tl-spine">
+          <div class="tl-logo-wrap">
+            <img src="img/logo/GDG.png" alt="GDSC TUP Manila"/>
+          </div>
+          <div class="tl-connector"></div>
+        </div>
+        <div class="tl-card">
+          <div class="tl-card-meta">
+            <div class="tl-period">Sep 2024 – Jun 2025</div>
+            <div class="tl-company">Google Developer Student Clubs</div>
+            <div class="tl-location">TUP Manila</div>
+          </div>
+          <div class="tl-role-row">
+            <div class="tl-role">Back-End Developer Lead</div>
+            <span class="exp-extra-badge">Extracurricular</span>
+          </div>
+          <ul class="tl-highlights">
+            <li>Led backend development (Mobile) for SafeHaven — a hackathon disaster management app that placed Top 20 at AppCon 2024, engineering SOS alerting and real-time rescuer messaging.</li>
+            <li>Integrated Flutter frontend with Firebase (Firestore, Auth) to manage evacuation center data, admin-user flows, and all user-facing functionality.</li>
+          </ul>
+          <div class="tl-tags">
+            <span class="tl-tag">Flutter / Dart</span>
+            <span class="tl-tag">Firebase</span>
+            <span class="tl-tag">Firestore</span>
+            <span class="tl-tag">Firebase Auth</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- SSCGI -->
+      <div class="tl-item reveal">
+        <div class="tl-spine">
+          <div class="tl-logo-wrap">
+            <img src="img/logo/SSCGI.jpg" alt="SSCGI"/>
+          </div>
+          <div class="tl-connector"></div>
+        </div>
+        <div class="tl-card">
+          <div class="tl-card-meta">
+            <div class="tl-period">July 2024 – Aug 2024</div>
+            <div class="tl-company">Systems & Software Consulting Group Inc.</div>
+            <div class="tl-location">Makati City, Metro Manila</div>
+          </div>
+          <div class="tl-role">Network and System Administrator Intern</div>
+          <ul class="tl-highlights">
+            <li>Configured and managed Windows Server 2019, pfSense firewall, and Active Directory for user, network, and access control in a live environment.</li>
+            <li>Performed system backups and retrieved logs from EZMaster, pfSense, and key network endpoints to support monitoring and maintenance workflows.</li>
+            <li>Delivered end-to-end IT support: laptop imaging, OS installs, M365 user management, network cabling, and CCTV setup for partner companies.</li>
+          </ul>
+          <div class="tl-tags">
+            <span class="tl-tag">Windows Server 2019</span>
+            <span class="tl-tag">Active Directory</span>
+            <span class="tl-tag">pfSense</span>
+            <span class="tl-tag">System Administration</span>
+            <span class="tl-tag">Microsoft 365</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- THM -->
+      <div class="tl-item reveal">
+        <div class="tl-spine">
+          <div class="tl-logo-wrap">
+            <img src="img/logo/THM.jpg" alt="TryHackMe"/>
+          </div>
+          <!-- No connector on last item -->
+        </div>
+        <div class="tl-card">
+          <div class="tl-card-meta">
+            <div class="tl-period">2022 – Present</div>
+            <div class="tl-company">Self-Directed</div>
+            <div class="tl-location">TryHackMe / Hack The Box</div>
+          </div>
+          <div class="tl-role">Security Research & CTF Practitioner</div>
+          <ul class="tl-highlights">
+            <li>Completed 15+ structured CTF labs covering web exploitation, privilege escalation, network forensics, and Active Directory attacks.</li>
+            <li>Practiced MITRE ATT&CK-aligned attack simulation and detection engineering, mapping threat actor TTPs to defensive controls.</li>
+            <li>Developed Python automation scripts for vulnerability scanning, log parsing, and brute-force testing in controlled lab environments.</li>
+          </ul>
+          <div class="tl-tags">
+            <span class="tl-tag">Penetration Testing</span>
+            <span class="tl-tag">MITRE ATT&CK</span>
+            <span class="tl-tag">Python</span>
+            <span class="tl-tag">CTF</span>
+            <span class="tl-tag">Active Directory</span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+<!-- SKILLS -->
+<section id="skills">
+  <div class="container">
+    <div class="section-header reveal">
+      <div class="section-label">Expertise</div>
+      <h2 class="section-title">Skills</h2>
+      <div class="section-line"></div>
+    </div>
+    <div class="skills-grid">
+
+      <div class="skill-card reveal">
+        <div class="skill-card-header">
+          <div class="skill-icon">🛡</div>
+          <div class="skill-card-title">Cybersecurity</div>
+        </div>
+        <div class="skill-tags">
+          <span class="skill-tag">SOC Operations</span>
+          <span class="skill-tag">SIEM Analysis</span>
+          <span class="skill-tag">Penetration Testing</span>
+          <span class="skill-tag">Threat Hunting</span>
+          <span class="skill-tag">IAM</span>
+          <span class="skill-tag">Vulnerability Assessment</span>
+          <span class="skill-tag">Incident Response</span>
+          <span class="skill-tag">Log Analysis</span>
+          <span class="skill-tag">Malware Detection</span>
+          <span class="skill-tag">API Security Testing</span>
+        </div>
+      </div>
+
+      <div class="skill-card reveal">
+        <div class="skill-card-header">
+          <div class="skill-icon">🔧</div>
+          <div class="skill-card-title">Tools & Platforms</div>
+        </div>
+        <div class="skill-tags">
+          <span class="skill-tag">Splunk</span>
+          <span class="skill-tag">FortiSIEM</span>
+          <span class="skill-tag">Google Chronicle</span>
+          <span class="skill-tag">Burp Suite</span>
+          <span class="skill-tag">Nmap</span>
+          <span class="skill-tag">Nessus</span>
+          <span class="skill-tag">Wireshark</span>
+          <span class="skill-tag">Suricata</span>
+          <span class="skill-tag">Metasploit</span>
+          <span class="skill-tag">OWASP ZAP</span>
+          <span class="skill-tag">Postman</span>
+        </div>
+      </div>
+
+      <div class="skill-card reveal">
+        <div class="skill-card-header">
+          <div class="skill-icon">💻</div>
+          <div class="skill-card-title">Programming & Systems</div>
+        </div>
+        <div class="skill-tags">
+          <span class="skill-tag">Python</span>
+          <span class="skill-tag">Dart</span>
+          <span class="skill-tag">JavaScript</span>
+          <span class="skill-tag">SQL</span>
+          <span class="skill-tag">HTML5 / CSS</span>
+          <span class="skill-tag">Linux</span>
+          <span class="skill-tag">Bash Scripting</span>
+          <span class="skill-tag">Windows Server</span>
+          <span class="skill-tag">Active Directory</span>
+          <span class="skill-tag">Firebase</span>
+          <span class="skill-tag">Supabase</span>
+        </div>
+      </div>
+
+      <div class="skill-card reveal">
+        <div class="skill-card-header">
+          <div class="skill-icon">📋</div>
+          <div class="skill-card-title">Frameworks & Cloud</div>
+        </div>
+        <div class="skill-tags">
+          <span class="skill-tag">NIST CSF</span>
+          <span class="skill-tag">ISO/IEC 27001</span>
+          <span class="skill-tag">OWASP Top 10</span>
+          <span class="skill-tag">MITRE ATT&CK</span>
+          <span class="skill-tag">CIS Controls</span>
+          <span class="skill-tag">GitLab CI/CD</span>
+          <span class="skill-tag">SAST / DAST</span>
+          <span class="skill-tag">Microsoft Entra ID</span>
+          <span class="skill-tag">Azure Fundamentals</span>
+          <span class="skill-tag">Oracle Cloud</span>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- CERTIFICATIONS -->
+<section id="certifications">
+  <div class="container">
+    <div class="section-header reveal">
+      <div class="section-label">Credentials</div>
+      <h2 class="section-title">Certifications</h2>
+      <div class="section-line"></div>
+    </div>
+    <div class="certs-grid">
+
+      <a href="https://cyberwarfare.live" target="_blank" rel="noopener" class="cert-card reveal cert-clickable">
+        <div class="cert-img-wrap">
+          <div class="cert-img-placeholder"><div class="cert-placeholder-icon">🏅</div></div>
+        </div>
+        <div class="cert-body">
+          <div class="cert-badge">CyberWarfare Labs</div>
+          <div class="cert-name">Multi-Cloud Blue Team Analyst (MCBTA)</div>
+          <div class="cert-year">2026 <span class="cert-inprogress-tag">In Progress</span></div>
+        </div>
+      </a>
+
+      <a href="https://cyberwarfare.live" target="_blank" rel="noopener" class="cert-card reveal cert-clickable">
+        <div class="cert-img-wrap">
+          <div class="cert-img-placeholder"><div class="cert-placeholder-icon">🏅</div></div>
+        </div>
+        <div class="cert-body">
+          <div class="cert-badge">CyberWarfare Labs</div>
+          <div class="cert-name">Multi-Cloud Red Team Analyst (MCRTA)</div>
+          <div class="cert-year">2026 <span class="cert-inprogress-tag">In Progress</span></div>
+        </div>
+      </a>
+
+      <a href="https://secops.group" target="_blank" rel="noopener" class="cert-card reveal cert-clickable">
+        <div class="cert-img-wrap">
+          <div class="cert-img-placeholder"><div class="cert-placeholder-icon">🏅</div></div>
+        </div>
+        <div class="cert-body">
+          <div class="cert-badge">The SecOps Group</div>
+          <div class="cert-name">Certified Network Security Practitioner (CNSP)</div>
+          <div class="cert-year">2026 <span class="cert-inprogress-tag">In Progress</span></div>
+        </div>
+      </a>
+
+      <a href="https://secops.group" target="_blank" rel="noopener" class="cert-card reveal cert-clickable">
+        <div class="cert-img-wrap">
+          <div class="cert-img-placeholder"><div class="cert-placeholder-icon">🏅</div></div>
+        </div>
+        <div class="cert-body">
+          <div class="cert-badge">The SecOps Group</div>
+          <div class="cert-name">Certified Blue Team Practitioner (CBTP)</div>
+          <div class="cert-year">2026 <span class="cert-inprogress-tag">In Progress</span></div>
+        </div>
+      </a>
+
+      <a href="https://www.credly.com/badges/7d78ccb7-e343-4e1f-a822-36d80d81635a/public_url" target="_blank" rel="noopener" class="cert-card reveal cert-clickable">
+        <div class="cert-img-wrap"><img src="img/cert/casa.png" alt="CASA Certificate"/></div>
+        <div class="cert-body">
+          <div class="cert-badge">APIsec University</div>
+          <div class="cert-name">Certified API Security Analyst (CASA)</div>
+          <div class="cert-year">2026</div>
+        </div>
+      </a>
+
+      <a href="https://www.credly.com/badges/465c2cd4-344b-4036-b2fe-6ca1a936bd70/public_url" target="_blank" rel="noopener" class="cert-card reveal cert-clickable">
+        <div class="cert-img-wrap"><img src="img/cert/apiAssoc.png" alt="API Security Certified Associate"/></div>
+        <div class="cert-body">
+          <div class="cert-badge">Wallarm</div>
+          <div class="cert-name">API Security Certified Associate</div>
+          <div class="cert-year">2026 – 2028</div>
+        </div>
+      </a>
+
+      <a href="https://learn.microsoft.com/api/credentials/share/en-us/JohnRheyUgates-1379/319A66EF435359E4?sharingId=6B331EC337B68EC8" target="_blank" rel="noopener" class="cert-card reveal cert-clickable">
+        <div class="cert-img-wrap"><img src="img/cert/microsoft.png" alt="SC-900"/></div>
+        <div class="cert-body">
+          <div class="cert-badge">Microsoft</div>
+          <div class="cert-name">Security, Compliance, and Identity Fundamentals (SC-900)</div>
+          <div class="cert-year">2026</div>
+        </div>
+      </a>
+
+      <a href="https://learn.microsoft.com/api/credentials/share/en-us/JohnRheyUgates-1379/B61187A22E4EB904?sharingId=6B331EC337B68EC8" target="_blank" rel="noopener" class="cert-card reveal cert-clickable">
+        <div class="cert-img-wrap"><img src="img/cert/microsoft.png" alt="AZ-900"/></div>
+        <div class="cert-body">
+          <div class="cert-badge">Microsoft</div>
+          <div class="cert-name">Azure Fundamentals (AZ-900)</div>
+          <div class="cert-year">2026</div>
+        </div>
+      </a>
+
+      <a href="https://tryhackme-certificates.s3-eu-west-1.amazonaws.com/THM-PUKGQGYDCN.pdf" target="_blank" rel="noopener" class="cert-card reveal cert-clickable">
+        <div class="cert-img-wrap"><img src="img/cert/thmjpt.jpg" alt="Junior Penetration Tester Path"/></div>
+        <div class="cert-body">
+          <div class="cert-badge">TryHackMe</div>
+          <div class="cert-name">Junior Penetration Tester Path</div>
+          <div class="cert-year">2026</div>
+        </div>
+      </a>
+
+      <a href="https://www.credly.com/badges/68d16b99-c54f-4ab2-8b7b-2eda901fe8bd/public_url" target="_blank" rel="noopener" class="cert-card reveal cert-clickable">
+        <div class="cert-img-wrap"><img src="img/cert/cc.png" alt="Certified in Cybersecurity (CC)"/></div>
+        <div class="cert-body">
+          <div class="cert-badge">ISC²</div>
+          <div class="cert-name">Certified in Cybersecurity (CC)</div>
+          <div class="cert-year">2025 – 2028</div>
+        </div>
+      </a>
+
+      <a href="https://drive.google.com/file/d/1LjmRcOxvR2I6WRuYN0l46IPJ6QVqW47b/view?usp=sharing" target="_blank" rel="noopener" class="cert-card reveal cert-clickable">
+        <div class="cert-img-wrap"><img src="img/cert/btja.jpg" alt="BTJA"/></div>
+        <div class="cert-body">
+          <div class="cert-badge">Security Blue Team</div>
+          <div class="cert-name">Blue Team Junior Analyst (BTJA)</div>
+          <div class="cert-year">2025</div>
+        </div>
+      </a>
+
+      <a href="https://catalog-education.oracle.com/pls/certview/sharebadge?id=24DC6D052B7AA4050A5ABE184B464A094BDD2AE6A9DF3584AEC55880292DFBA2" target="_blank" rel="noopener" class="cert-card reveal cert-clickable">
+        <div class="cert-img-wrap"><img src="img/cert/oci.png" alt="OCI Certified Foundations Associate"/></div>
+        <div class="cert-body">
+          <div class="cert-badge">Oracle</div>
+          <div class="cert-name">OCI Certified Foundations Associate</div>
+          <div class="cert-year">2025</div>
+        </div>
+      </a>
+
+      <a href="https://certification.gremlin.com/credentials/5a85a9b9-e680-446d-9653-7466d4cbee94" target="_blank" rel="noopener" class="cert-card reveal cert-clickable">
+        <div class="cert-img-wrap"><img src="img/cert/gecec.jpg" alt="GECEC"/></div>
+        <div class="cert-body">
+          <div class="cert-badge">Gremlin</div>
+          <div class="cert-name">Enterprise Chaos Engineering Certified (GECEC)</div>
+          <div class="cert-year">2025</div>
+        </div>
+      </a>
+
+      <a href="https://www.credly.com/badges/86a04d08-039c-4586-a9be-39eb73ac33cc/public_url" target="_blank" rel="noopener" class="cert-card reveal cert-clickable">
+        <div class="cert-img-wrap"><img src="img/cert/sase.png" alt="SASE Expert L1"/></div>
+        <div class="cert-body">
+          <div class="cert-badge">Cato Networks</div>
+          <div class="cert-name">SASE Expert L1</div>
+          <div class="cert-year">2025</div>
+        </div>
+      </a>
+
+      <a href="https://www.credly.com/badges/9ddfcbee-f61b-4b4e-9d6d-30d8b10ddd88/public_url" target="_blank" rel="noopener" class="cert-card reveal cert-clickable">
+        <div class="cert-img-wrap"><img src="img/cert/cyberops.png" alt="CyberOps Associate"/></div>
+        <div class="cert-body">
+          <div class="cert-badge">Cisco</div>
+          <div class="cert-name">CyberOps Associate</div>
+          <div class="cert-year">2025</div>
+        </div>
+      </a>
+
+      <a href="https://coursera.org/share/da458e9fe0a65f4170565decea4aef1d" target="_blank" rel="noopener" class="cert-card reveal cert-clickable">
+        <div class="cert-img-wrap"><img src="img/cert/google.png" alt="Google Cybersecurity"/></div>
+        <div class="cert-body">
+          <div class="cert-badge">Google</div>
+          <div class="cert-name">Google Cybersecurity</div>
+          <div class="cert-year">2024</div>
+        </div>
+      </a>
+
+      <a href="https://www.credly.com/badges/d026871b-d6b0-4726-b0bf-bff1351eda5e/public_url" target="_blank" rel="noopener" class="cert-card reveal cert-clickable">
+        <div class="cert-img-wrap"><img src="img/cert/fcac.png" alt="FCAC"/></div>
+        <div class="cert-body">
+          <div class="cert-badge">Fortinet</div>
+          <div class="cert-name">Fortinet Certified Associate Cybersecurity (FCAC)</div>
+          <div class="cert-year">2024</div>
+        </div>
+      </a>
+
+      <a href="https://www.credly.com/badges/5fa0eac5-c31b-40d7-854a-5ddeeee525b8/public_url" target="_blank" rel="noopener" class="cert-card reveal cert-clickable">
+        <div class="cert-img-wrap"><img src="img/cert/fcfc.png" alt="FCFC"/></div>
+        <div class="cert-body">
+          <div class="cert-badge">Fortinet</div>
+          <div class="cert-name">Fortinet Certified Fundamentals Cybersecurity (FCFC)</div>
+          <div class="cert-year">2024</div>
+        </div>
+      </a>
+
+      <a href="https://www.credly.com/badges/be559b66-eb7f-47b5-9434-79460fc3391e/public_url" target="_blank" rel="noopener" class="cert-card reveal cert-clickable">
+        <div class="cert-img-wrap"><img src="img/cert/introcyb.png" alt="Cisco Introduction to Cybersecurity"/></div>
+        <div class="cert-body">
+          <div class="cert-badge">Cisco</div>
+          <div class="cert-name">Introduction to Cybersecurity</div>
+          <div class="cert-year">2024</div>
+        </div>
+      </a>
+
+    </div>
+    <p class="certs-hint reveal">Click any certification to verify ↗</p>
+  </div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects">
+  <div class="container">
+    <div class="section-header reveal">
+      <div class="section-label">Portfolio</div>
+      <h2 class="section-title">Projects</h2>
+      <div class="section-line"></div>
+    </div>
+
+    <div class="proj-list">
+
+      <!-- SafeHaven -->
+      <div class="proj-row reveal">
+        <div class="proj-media-col">
+          <div class="proj-media-slider">
+            <button class="proj-media-btn prev" aria-label="Previous">&#8592;</button>
+            <button class="proj-media-btn next" aria-label="Next">&#8594;</button>
+            <div class="proj-media-track">
+              <div class="proj-media-item">
+                <iframe
+                  title="SafeHaven Marketing Video"
+                  src="https://drive.google.com/file/d/1L_XTPusVAhaauRPk060NwTDMJixPz8ln/preview"
+                  allow="autoplay"
+                  allowfullscreen>
+                </iframe>
+              </div>
+              <div class="proj-media-item">
+                <img src="img/proj/sh/1.jpg" alt="SafeHaven Screenshot"/>
+              </div>
+            </div>
+          </div>
+          <div class="proj-badge">🏆 Top 20 — AppCon 2024</div>
+        </div>
+        <div class="proj-info-col">
+          <h3 class="proj-title">SafeHaven: Smart Disaster Management System</h3>
+          <p class="proj-desc">
+            A real-time disaster response mobile app engineered for the AppCon 2024 hackathon. Built the backend services powering SOS alerting, rescuer coordination, and live evacuation tracking.
+          </p>
+          <ul class="proj-bullets">
+            <li>Engineered an event-driven SOS alert system with duplicate-submission prevention and real-time rescuer dispatch via Firebase.</li>
+            <li>Designed Firestore data models for evacuation center capacity tracking and role-based admin-user messaging flows.</li>
+          </ul>
+          <div class="proj-tools">
+            <span class="proj-tool">Flutter</span>
+            <span class="proj-tool">Dart</span>
+            <span class="proj-tool">Firebase</span>
+            <span class="proj-tool">Firestore</span>
+            <span class="proj-tool">Firebase Auth</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- SIEM Lab -->
+      <div class="proj-row reveal">
+        <div class="proj-media-col">
+          <div class="proj-media-slider">
+            <button class="proj-media-btn prev" aria-label="Previous">&#8592;</button>
+            <button class="proj-media-btn next" aria-label="Next">&#8594;</button>
+            <div class="proj-media-track">
+              <div class="proj-media-item">
+                <img src="images/siem1.png" alt="SIEM Lab Screenshot 1"/>
+              </div>
+              <div class="proj-media-item">
+                <img src="images/siem2.png" alt="SIEM Lab Screenshot 2"/>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="proj-info-col">
+          <h3 class="proj-title">SIEM Home Lab — Splunk Detection Engineering</h3>
+          <p class="proj-desc">
+            A personal Splunk SIEM environment ingesting Windows Event Logs, Suricata alerts, and Sysmon data from a virtualized attack-and-defend network.
+          </p>
+          <ul class="proj-bullets">
+            <li>Created correlation searches for brute-force, lateral movement, and privilege escalation TTPs mapped to MITRE ATT&CK.</li>
+            <li>Built real-time dashboards for alert triage with documented SPL detection logic and tuning notes.</li>
+          </ul>
+          <div class="proj-tools">
+            <span class="proj-tool">Splunk</span>
+            <span class="proj-tool">Sysmon</span>
+            <span class="proj-tool">Suricata</span>
+            <span class="proj-tool">MITRE ATT&CK</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- DevSecOps -->
+      <div class="proj-row reveal">
+        <div class="proj-media-col">
+          <div class="proj-media-slider">
+            <button class="proj-media-btn prev" aria-label="Previous">&#8592;</button>
+            <button class="proj-media-btn next" aria-label="Next">&#8594;</button>
+            <div class="proj-media-track">
+              <div class="proj-media-item">
+                <img src="images/devsecops1.png" alt="DevSecOps Screenshot 1"/>
+              </div>
+              <div class="proj-media-item">
+                <img src="images/devsecops2.png" alt="DevSecOps Screenshot 2"/>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="proj-info-col">
+          <h3 class="proj-title">Secure CI/CD Pipeline — GitLab DevSecOps</h3>
+          <p class="proj-desc">
+            A GitLab CI/CD pipeline with embedded SAST and DAST security gates, enforcing shift-left security across the SDLC — built and deployed during internship at SGV & Co.
+          </p>
+          <ul class="proj-bullets">
+            <li>Configured Bandit, SonarQube, and OWASP ZAP scanning stages with deployment blocks on critical findings.</li>
+            <li>Presented scan results and remediation findings to clients and senior management at SGV & Co.</li>
+          </ul>
+          <div class="proj-tools">
+            <span class="proj-tool">GitLab CI/CD</span>
+            <span class="proj-tool">Bandit</span>
+            <span class="proj-tool">OWASP ZAP</span>
+            <span class="proj-tool">SonarQube</span>
+            <span class="proj-tool">Docker</span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+<!-- PROFESSIONAL ENGAGEMENTS -->
+<section id="engagements">
+  <div class="container">
+    <div class="section-header reveal">
+      <div class="section-label">Beyond the Resume</div>
+      <h2 class="section-title">Professional Engagements</h2>
+      <div class="section-line"></div>
+    </div>
+  </div>
+
+  <div class="eng-slider-outer reveal">
+    <button class="eng-arrow eng-arrow-left" id="engPrev" aria-label="Previous">&#8592;</button>
+    <button class="eng-arrow eng-arrow-right" id="engNext" aria-label="Next">&#8594;</button>
+
+    <div class="eng-track" id="engTrack">
+
+      <!-- ENGAGEMENT 1 — replace src with your image path -->
+      <div class="eng-slide">
+        <div class="eng-img-wrap">
+          <img src="img/engagements/event1.jpg" alt="DPP Cyber Awareness Webinar"/>
+          <div class="eng-img-overlay"></div>
+          <div class="eng-img-tag">SGV & Co. · Oct 2025</div>
+        </div>
+        <div class="eng-slide-body">
+          <h3 class="eng-title">DPP Cyber Awareness Webinar — AI Identity Threats</h3>
+          <p class="eng-desc">Delivered a live webinar for Cyber Awareness Month covering AI-driven identity threats: deepfake detection, vishing attack patterns, and social engineering defense frameworks.</p>
+          <div class="eng-meta-tags">
+            <span class="eng-meta-tag">Webinar Speaker</span>
+            <span class="eng-meta-tag">AI Security</span>
+            <span class="eng-meta-tag">Awareness Training</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- ENGAGEMENT 2 — replace src with your image path -->
+      <div class="eng-slide">
+        <div class="eng-img-wrap">
+          <img src="img/engagements/event2.jpg" alt="AppCon 2024"/>
+          <div class="eng-img-overlay"></div>
+          <div class="eng-img-tag">DICT · Nov 2024</div>
+        </div>
+        <div class="eng-slide-body">
+          <h3 class="eng-title">AppCon 2024 — National Hackathon</h3>
+          <p class="eng-desc">Competed in DICT's national app development competition with SafeHaven, a real-time disaster management platform. Placed Top 20 among hundreds of entries nationwide.</p>
+          <div class="eng-meta-tags">
+            <span class="eng-meta-tag">Hackathon</span>
+            <span class="eng-meta-tag">Top 20 Finalist</span>
+            <span class="eng-meta-tag">DICT</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Add more slides below — just copy a block and update img src, tag, title, desc -->
+
+    </div>
+
+    <div class="eng-dots" id="engDots"></div>
+  </div>
+</section>
+<!-- WRITEUPS -->
+<section id="writeups">
+  <div class="container">
+    <div class="section-header reveal">
+      <div class="section-label">Technical Writing</div>
+      <h2 class="section-title">Writeups</h2>
+      <div class="section-line"></div>
+    </div>
+
+    <div class="writeups-inprogress reveal">
+      <div class="wip-icon">✍️</div>
+      <div class="wip-content">
+        <div class="wip-badge">In Progress</div>
+        <h3 class="wip-title">Writeups coming soon</h3>
+        <p class="wip-desc">
+          I'm currently documenting CTF walkthroughs, SOC investigation breakdowns, and penetration testing reports
+          from my lab work and internship experiences. These will be published on Medium.
+        </p>
+        <div class="wip-topics">
+          <span class="wip-topic">TryHackMe walkthroughs</span>
+          <span class="wip-topic">Splunk detection use cases</span>
+          <span class="wip-topic">Web app pentest reports</span>
+          <span class="wip-topic">CIS hardening guides</span>
+          <span class="wip-topic">API security testing</span>
+        </div>
+        <a href="https://medium.com/@ugates.johnrhey" rel="noopener" target="_blank" class="btn btn-outline wip-cta">Follow on Medium →</a>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+  <div class="container">
+    <div class="section-header reveal">
+      <div class="section-label">Let's Connect</div>
+      <h2 class="section-title">Contact</h2>
+      <div class="section-line"></div>
+    </div>
+    <div class="contact-grid">
+      <div class="contact-info reveal">
+        <p>
+          <em>I'm currently open to new opportunities in cybersecurity — SOC Analyst, Penetration Testing, and Security Consultant roles. Whether you have a question, want to discuss a role, or just want to say hi, feel free to reach out.</em>
+        </p>
+        <p>I respond to all professional inquiries within 24–48 hours. Resume is available upon request.</p>
+        <div class="contact-links">
+          <a href="https://github.com/johnrheyugates" rel="noopener" target="_blank" class="contact-link">
+            <span class="contact-link-icon">⌥</span>
+            github.com/johnrheyugates
+          </a>
+          <a href="https://linkedin.com/in/john-rhey-ugates/" rel="noopener" target="_blank" class="contact-link">
+            <span class="contact-link-icon">◈</span>
+            linkedin.com/in/john-rhey-ugates
+          </a>
+          <a href="mailto:ugates.johnrhey@gmail.com" rel="noopener" target="_blank" class="contact-link">
+            <span class="contact-link-icon">✉</span>
+            ugates.johnrhey@gmail.com
+          </a>
+        </div>
+      </div>
+      <div class="contact-form reveal">
+        <div class="form-group">
+          <label class="form-label" for="name">Name</label>
+          <input class="form-input" type="text" id="name" placeholder="Your full name"/>
+        </div>
+        <div class="form-group">
+          <label class="form-label" for="email">Email</label>
+          <input class="form-input" type="email" id="email" placeholder="your@email.com"/>
+        </div>
+        <div class="form-group">
+          <label class="form-label" for="message">Message</label>
+          <textarea class="form-input" id="message" placeholder="Your message or inquiry..."></textarea>
+        </div>
+        <button class="btn btn-primary form-submit" id="submitBtn" onclick="handleSubmit()">Send Message</button>
+        <p class="form-note">Resume available upon request.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="container">
+    <div class="footer-inner">
+      <div class="footer-copy">© 2026 John Rhey T. Ugates · Metro Manila</div>
+      <div class="footer-links">
+        <a href="https://github.com/rhyuzen" rel="noopener" target="_blank" class="footer-link">GitHub</a>
+        <a href="https://tryhackme.com/p/jrhyu" rel="noopener" target="_blank" class="footer-link">TryHackMe</a>
+        <a href="https://www.linkedin.com/in/john-rhey-ugates/" rel="noopener" target="_blank" class="footer-link">LinkedIn</a>
+        <a href="mailto:ugates.johnrhey@gmail.com" rel="noopener" target="_blank" class="footer-link">Email</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
