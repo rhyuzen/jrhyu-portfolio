@@ -32,8 +32,6 @@ It demonstrates practical experience in both offensive and defensive security, w
 ## Projects
 
 - SafeHaven — Disaster Response System (AppCon 2024 Top 20)  
-- Splunk SIEM Home Lab — Detection Engineering & Log Analysis  
-- Secure CI/CD Pipeline — GitLab DevSecOps Implementation  
 
 ---
 
