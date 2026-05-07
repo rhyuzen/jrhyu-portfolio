@@ -690,7 +690,12 @@ section { padding: 5rem 0; }
   scroll-behavior: smooth;
   padding: 0.5rem 2rem 1rem;
   -ms-overflow-style: none;
-  scrollbar-width: none;
+}
+
+@supports (scrollbar-width: none) {
+  .eng-track {
+    scrollbar-width: none;
+  }
 }
 
 .eng-track::-webkit-scrollbar { display: none; }
