@@ -682,6 +682,12 @@ section { padding: 5rem 0; }
   padding: 0 0 3rem;
 }
 
+.eng-slide-clickable,
+.eng-slide-clickable * {
+  text-decoration: none !important;
+  color: inherit;
+}
+
 .eng-slide-clickable:hover .eng-img-wrap::after {
   content: '↗ Look it up';
   position: absolute;
