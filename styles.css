@@ -682,6 +682,21 @@ section { padding: 5rem 0; }
   padding: 0 0 3rem;
 }
 
+.eng-slide-clickable:hover .eng-img-wrap::after {
+  content: '↗ Look it up';
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  font-family: var(--font-mono);
+  font-size: .65rem;
+  color: var(--accent);
+  background: var(--bg-card);
+  border: 1px solid var(--border-accent);
+  padding: .2rem .55rem;
+  border-radius: 20px;
+  z-index: 3;
+}
+
 .eng-track {
   display: flex;
   gap: 1.5rem;
